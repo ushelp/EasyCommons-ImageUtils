@@ -7,7 +7,7 @@ EasyImageUtils is [EasyCommons](https://github.com/ushelp/EasyCommons "EasyCommo
 ## 1. API
 EasyImageUtils includes the following components:
 
-1. **EasyImageCompressionUtils**: change the image size compression tools, support network pictures, geometric, higher maximum wide variety of modes.
+1. **EasyImageCompressionUtils**: change the image size compression tools, support network pictures, geometric, higher maximum wide variety of modes.<br/>
  **Scene** : compression to upload pictures of different sizes.
  ```JAVA
   /**
@@ -31,7 +31,7 @@ EasyImageUtils includes the following components:
   compressPicByWidthAndHeight(file, [toFile], width, height);
  ```
 
-2. **EasyImageSrcUtils**:Image address extraction tools. The string contents of the image path extracted.
+2. **EasyImageSrcUtils**:Image address extraction tools. The string contents of the image path extracted.<br/>
  **Scene** : at the time of publication of news content, the content automatically extract all images, or extract the first image as a news cover.
  ```JAVA
   /**
@@ -47,7 +47,7 @@ EasyImageUtils includes the following components:
   findFirstSrc(content)
  ```
 
-3. **EasyImageWaterMarkUtils**:Image watermark tools. Support for the picture add a picture watermark or text watermark. 
+3. **EasyImageWaterMarkUtils**:Image watermark tools. Support for the picture add a picture watermark or text watermark. <br/>
  **Scene**: Add a watermark to upload pictures. 
  ```JAVA
   /**

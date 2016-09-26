@@ -20,12 +20,15 @@ EasyImageUtils is EasyCommons project group image processing component.
 EasyImageUtils 核心：
 
 1. **EasyImageCompressionUtils**：图片大小压缩改变工具类，支持网络图片，等比，最大宽高等多种模式。 
+
  **适合场景**：上传图片时压缩到不同大小。 
  
 2. **EasyImageSrcUtils**：图片地址提取工具类。将字符串内容中的图片路径提取出来。 
- **适合场景**：在发表新闻内容时，自动提取内容中所有的图片，或提取第一张图片作为新闻封面。 <br/>
+
+ **适合场景**：在发表新闻内容时，自动提取内容中所有的图片，或提取第一张图片作为新闻封面。 
  
 3. **EasyImageWaterMarkUtils**：图片水印工具类。支持为图片添加图片水印或文字水印。 
+
  **适合场景**：上传图片时添加水印。 <br/>
 
 [EasyImageUtils API - 中文](doc/API-zh.md "EasyImageUtils API")
@@ -41,14 +44,14 @@ EasyImageUtils 核心：
 
 EasyImageUtils core:
 
-- **EasyImageCompressionUtils**: change the image size compression tools, support network pictures, geometric, higher maximum wide variety of modes.
-**Scene** : compression to upload pictures of different sizes.
+- **EasyImageCompressionUtils**: change the image size compression tools, support network pictures, geometric, higher maximum wide variety of modes.<br/>
+ **Scene** : compression to upload pictures of different sizes.
 
-- **EasyImageSrcUtils**: Picture address extraction tools. The string contents of the image path extracted.
-**Scene** : at the time of publication of news content, the content automatically extract all images, or extract the first image as a news cover.
+- **EasyImageSrcUtils**: Picture address extraction tools. The string contents of the image path extracted.<br/>
+ **Scene** : at the time of publication of news content, the content automatically extract all images, or extract the first image as a news cover.
 
-- **EasyImageWaterMarkUtils**: image watermark tools. Support for the picture add a picture watermark or text watermark.
-**Scene** : add a watermark to upload pictures.
+- **EasyImageWaterMarkUtils**: image watermark tools. Support for the picture add a picture watermark or text watermark.<br/>
+ **Scene** : add a watermark to upload pictures.
 
 [EasyImageUtils API - English](doc/API-en.md "EasyImageUtils API")
 

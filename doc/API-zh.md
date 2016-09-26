@@ -6,9 +6,8 @@ EasyImageUtils 是 [EasyCommons](https://github.com/ushelp/EasyCommons "EasyComm
 ## 1. API
 EasyImageUtils 包括如下组件：
 
-1. **EasyImageCompressionUtils**：图片大小压缩改变工具类，支持网络图片，等比，最大宽高等多种模式。 
+1. **EasyImageCompressionUtils**：图片大小压缩改变工具类，支持网络图片，等比，最大宽高等多种模式。 <br/>
  **适合场景**：上传图片时压缩到不同大小。 
-
  ```JAVA
   /**
   * 四种图片压缩方式：
@@ -32,6 +31,7 @@ EasyImageUtils 包括如下组件：
  ```
 
 2. **EasyImageSrcUtils**：图片地址提取工具类。将字符串内容中的图片路径提取出来。 
+ 
  **适合场景**：在发表新闻内容时，自动提取内容中所有的图片，或提取第一张图片作为新闻封面。 <br/>
  ```JAVA
   /**
@@ -48,7 +48,8 @@ EasyImageUtils 包括如下组件：
  ```
 
 3. **EasyImageWaterMarkUtils**：图片水印工具类。支持为图片添加图片水印或文字水印。 
- **适合场景**：上传图片时添加水印。 
+ 
+ **适合场景**：上传图片时添加水印。 <br/>
  ```JAVA
   /**
   * 两种图片添加水印方式：
